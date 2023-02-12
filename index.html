@@ -11,55 +11,56 @@
       rel="stylesheet"
     />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="container header">
       <nav class="header-nav">
         <a class="header-logo" href="./index.html"> <span class="color-web">Web</span>Studio</a>
-        <ul>
+        <ul class="header-link">
           <li><a class="nav-link" href="">Studio</a></li>
           <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
           <li><a class="nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address class="address">
-        <ul>
-          <li><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
-    <main>
+    <main>  
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <h1 class="hero-title">Effective Solutions</br>for Your Business</h1>
         <button class="hero-button" type="button">Order Service</button>
       </section>
-      <section>
+      <section class="container features">
         <h2 hidden>Features</h2>
-        <ul>
-          <li>
+        <ul class="features-list">
+          <li class="features-item">
             <h3 class="subtitles">Strategy</h3>
             <p class="text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="subtitles">Punctuality</h3>
             <p class="text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="subtitles">Diligence</h3>
             <p class="text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="features-item">
             <h3 class="subtitles">Technologies</h3>
             <p class="text">
               Design practice focused on digital experiences. We bring forth a
@@ -68,9 +69,9 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container activity">
         <h2 class="titles">What are we doing</h2>
-        <ul>
+        <ul class="activity-list">
           <li>
             <img src="./images/strategy.jpg" alt="strategy" width="360" />
           </li>
@@ -86,25 +87,25 @@
           </li>
         </ul>
       </section>
-      <section class="team">
+      <section class="container team">
         <h2 class="titles">Our Team</h2>
-        <ul>
-          <li>
+        <ul class="team-list">
+          <li class="team-item">
             <img src="./images/marc.jpg" alt="Marc" width="264" />
             <h3 class="subtitles">Mark Guerrero</h3>
             <p class="text">Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/tom.jpg" alt="Tom" width="264" />
-            <h3>Tom Ford</h3>
+            <h3 class="subtitles">Tom Ford</h3>
             <p class="text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/camila.jpg" alt="Camila" width="264" />
             <h3 class="subtitles">Camila Garcia</h3>
             <p class="text">Marketing</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/daniel.jpg" alt="Daniel" width="264" />
             <h3 class="subtitles">Daniel Wilson</h3>
             <p class="text">UI Designer</p>
@@ -112,7 +113,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="container footer">
       <a class="footer-logo" href="./index.html"> <span class="color-web">Web</span>Studio</a>
       <p class="text">
         Increase the flow of customers and sales for your business with digital
