@@ -121,6 +121,7 @@ img {
   line-height: 1.58;
   letter-spacing: 0.02em;
   color: var(--navyblue-color);
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -179,8 +180,7 @@ img {
 .hero-title {
   margin-top: 0;
   margin-bottom: 48px;
-  padding-top: 188px;
-
+ 
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -191,7 +191,7 @@ img {
   padding: 16px 32px;
 
   background: var(--iris-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);  
+  border-radius: 4px;
   font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.58;
@@ -288,13 +288,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.footer .text {
-  color: var(--cornflower-color);
-  width: 264px;
-}
 .footer-logo {
-  margin-bottom: 16px;
-
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -304,6 +298,14 @@ img {
   text-decoration: none;
   color: var(--cloud-color);
 }
+
+.footer .text {
+padding-top: 16px;
+
+  color: var(--cornflower-color);
+  width: 264px;
+}
+
 
 /* portfolio */
 .filter {
